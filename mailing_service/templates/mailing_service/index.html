@@ -1,0 +1,33 @@
+{% extends 'mailing_service/base.html' %}
+{% block content %}
+
+
+    <div class="album py-5 bg-body-tertiary">
+
+
+
+
+        <main class="container">
+<h2 style="text-align: center;">Свежие блоги</h2>
+{% for blog in random_blogs %}
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">{{ blog.title }}</h3>
+          <div class="mb-1 text-muted">{{ blog.publish_at }}</div>
+          <p class="card-text mb-auto">{{ blog.body| truncatechars:70 }}</p>
+          <a href="{% url 'blog:blog_detail' blog.pk %}" class="stretched-link">Продолжить чтение</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+        <h2 style="text-align: left;">Всего рассылок: {{ total_mailing }}</h2>
+        <h2 style="text-align: left;">Всего активных рассылок: {{ active_mailing }}</h2>
+        <h2 style="text-align: left;">Количество уникальных клиентов: {{ unique_clients }}</h2>
+
+
+        </main>
+        </div>
+{% endblock %}

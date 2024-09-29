@@ -1,0 +1,51 @@
+{% extends 'mailing_service/base.html' %}
+{% block content %}
+
+    {% block chart %}
+        <!-- Удалить график, оставив этот блок пустым -->
+    {% endblock %}
+
+    <div class="album py-5 bg-body-tertiary">
+
+
+        <div class="container">
+            <h2 style="text-align: center;">Табло клиентов</h2>
+            <p>
+                <a class="btn btn-primary" href="{% url 'mailing_service:client_create' %}" role="button">Добавить
+                    клиента</a>
+            </p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                {% for object in object_list %}
+                    {% if user == object.owner or user.is_superuser %}
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                {#                    <img src="{{ dog.photo}}">#}
+                                <div class="card-body">
+                                    <p class="card-text">{{ object.full_name }}</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group gap-2">
+
+                                            <a class="btn btn-primary"
+                                               href="{% url 'mailing_service:client_detail' object.pk %}" role="button">Посмотреть</a>
+                                            {% if user == object.owner %}
+                                                <a class="btn btn-primary"
+                                                   href="{% url 'mailing_service:client_update' object.pk %}"
+                                                   role="button">Редактировать</a>
+                                            {% endif %}
+                                            {% if user == object.owner %}
+                                                <a class="btn btn-primary"
+                                                   href="{% url 'mailing_service:client_delete' object.pk %}"
+                                                   role="button">Удалить</a>
+                                            {% endif %}
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

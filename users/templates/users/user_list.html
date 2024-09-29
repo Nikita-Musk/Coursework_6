@@ -1,0 +1,40 @@
+{% extends 'mailing_service/base.html' %}
+{% block content %}
+
+    {% block chart %}
+        <!-- Удалить график, оставив этот блок пустым -->
+    {% endblock %}
+
+    <div class="album py-5 bg-body-tertiary">
+        <h2 style="text-align: center;">Табло пользователей</h2>
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                {% for object in object_list %}
+                    {% if perms.users.view_all_users or user.is_superuser %}
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <p class="card-text">{{ object.email }}</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group gap-2">
+                                            {% if object.is_active %}
+                                                <a class="btn btn-warning"
+                                                   href="{% url 'users:toggle_activity' object.pk %}">Деактивировать</a>
+                                            {% else %}
+                                                <a class="btn btn-success"
+                                                   href="{% url 'users:toggle_activity' object.pk %}">Активировать</a>
+                                            {% endif %}
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
