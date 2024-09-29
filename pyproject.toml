@@ -13,6 +13,10 @@ ipython = "^8.27.0"
 black = "^24.8.0"
 redis = "^5.0.8"
 python-dotenv = "^1.0.1"
+pillow = "^10.4.0"
+apscheduler = "^3.10.4"
+django-stubs = "^5.1.0"
+django-mailing = "^0.2.4"
 
 
 [build-system]

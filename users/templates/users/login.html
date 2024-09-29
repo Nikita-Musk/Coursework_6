@@ -1,0 +1,35 @@
+{% extends 'mailing_service/base.html' %}
+
+{% block chart %}
+<!-- Удалить график, оставив этот блок пустым -->
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <div class="offset-md-3 col-md-6">
+        <form class="row mx-auto" method="post" enctype="multipart/form-data">
+            <div class="col-6">
+
+                <div class="card">
+
+                    <div class="card-body">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                    </div>
+{#                    <div class="col-md-12">#}
+{#                        <a href="{% url "users:password-recovery" %}" class="btn btn-link float-right">#}
+{#                            Восстановить пароль#}
+{#                        </a>#}
+{#                    </div>#}
+                    <button type="submit" class="btn btn-primary">
+                        Войти
+                    </button>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+    </div>
+{% endblock %}
+

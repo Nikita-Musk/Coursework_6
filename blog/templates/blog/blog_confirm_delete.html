@@ -1,0 +1,26 @@
+{% extends 'mailing_service/base.html' %}
+
+{% block chart %}
+<!-- Удалить график, оставив этот блок пустым -->
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form class="row" method="post" enctype="multipart/form-data">
+                    <div class="card">
+                        <p class="card-text">Действительно хотите удалить блог: {{ object.title }}</p>
+                        <div class="card-body">
+                            {% csrf_token %}
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary btn-lg mx-3">Удалить</button>
+                            <a class="btn btn-primary btn-lg mx-3" href="{% url 'blog:blog_list' %}" role="button">Отменить</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

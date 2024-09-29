@@ -1,0 +1,69 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Currency p2p online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Include Chart.js library -->
+    <script src="{% static 'js/chart.min.js' %}"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Currency p2p online</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav">
+        <div class="nav-item text-nowrap">
+            {% if user.is_authenticated %}
+            <a class="nav-link px-3" href="{% url 'users:logout' %}">Выход</a>
+            {% else %}
+            <a class="nav-link px-3" href="{% url 'users:login' %}">Вход</a>
+            <a class="nav-link px-3" href="{% url 'users:register' %}">Регистрация</a>
+            {% endif %}
+        </div>
+    </div>
+</header>
+
+{% include 'mailing_service/includes/inc_menu.html' %}
+
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    {% block chart %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 style="display: block; margin: 0 auto;">Цена bitcoin</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+            </button>
+        </div>
+    </div>
+
+    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+{% endblock %}
+<h3 style="text-align: center;">Наш сервис - это безопасная и удобная платформа для обмена валюты между физическими
+    лицами. Мы соединяем тех, кто хочет купить или продать валюту, и обеспечиваем быстрый и надежный обмен.</h3>
+
+
+{% block content %}
+{% endblock %}
+</main>
+
+
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+<script src="{% static 'js/feather.min.js' %}"></script>
+<script src="{% static 'js/dashboard.js' %}"></script>
+</body>
+</html>

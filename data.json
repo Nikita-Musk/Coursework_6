@@ -1,0 +1,1174 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-09-29T12:41:40.137Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-09-29T12:42:06.019Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-09-29T13:20:14.757Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-09-29T13:21:11.553Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-09-29T13:22:58.917Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-09-29T14:16:32.960Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "admin@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-09-29T15:03:16.594Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "vcumoe@mailto.plus",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-09-29T15:17:10.244Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "vcumoe@mailto.plus",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-09-29T17:52:17.435Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "nik52119e@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Клиент",
+      "content_type": 6,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Клиент",
+      "content_type": 6,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Клиент",
+      "content_type": 6,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Клиент",
+      "content_type": 6,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Сообщение",
+      "content_type": 7,
+      "codename": "add_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Сообщение",
+      "content_type": 7,
+      "codename": "change_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Сообщение",
+      "content_type": 7,
+      "codename": "delete_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Сообщение",
+      "content_type": 7,
+      "codename": "view_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Рассылка",
+      "content_type": 8,
+      "codename": "add_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Рассылка",
+      "content_type": 8,
+      "codename": "change_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Рассылка",
+      "content_type": 8,
+      "codename": "delete_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Рассылка",
+      "content_type": 8,
+      "codename": "view_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Попытка рассылки",
+      "content_type": 9,
+      "codename": "add_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Попытка рассылки",
+      "content_type": 9,
+      "codename": "change_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Попытка рассылки",
+      "content_type": 9,
+      "codename": "delete_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Попытка рассылки",
+      "content_type": 9,
+      "codename": "view_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 10,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 10,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 10,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 10,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add блог",
+      "content_type": 11,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change блог",
+      "content_type": 11,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete блог",
+      "content_type": 11,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view блог",
+      "content_type": 11,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can change mailing status",
+      "content_type": 8,
+      "codename": "can_change_status"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can block clients",
+      "content_type": 8,
+      "codename": "can_block_clients"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can deactivate user",
+      "content_type": 10,
+      "codename": "deactivate_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view all users",
+      "content_type": 10,
+      "codename": "view_all_users"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can deactivate mailing",
+      "content_type": 8,
+      "codename": "deactivate_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can view all mailings",
+      "content_type": 8,
+      "codename": "view_all_mailings"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "manager",
+      "permissions": [
+        49,
+        50,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "mailing_service",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "mailing_service",
+      "model": "message"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "mailing_service",
+      "model": "mailing"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "mailing_service",
+      "model": "attempt"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gn2u5xbo4rs0mkpamnnj31felji9tnpi",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2hBaqPBcuvcMhPdBqoYmpV0Z725IutDtzGTeKqZ9K3FvssaZ1UUN6vTLMNFTahf8SPW-aFrqts6oe6IP2_RtYXldj_ZvUFIrfZsBrCVDE3hn0QgOIpPDs6eRyQe24oRBgkEJ3ltwzpExlMHnLHlUny_mczhO:1sut6o:gQl4bUTXZIhK3NWz3v4b2uDPYzkWbbKun5PbWHf46EU",
+      "expire_date": "2024-10-13T12:33:06.708Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "osjz2tvp2tuybj6iyq7q3sx8ocf19vkm",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2hBaqPBcuvcMhPdBqoYmpV0Z725IutDtzGTeKqZ9K3FvssaZ1UUN6vTLMNFTahf8SPW-aFrqts6oe6IP2_RtYXldj_ZvUFIrfZsBrCVDE3hn0QgOIpPDs6eRyQe24oRBgkEJ3ltwzpExlMHnLHlUny_mczhO:1sr2Y8:TAqCh6wW54QQ0Ng5uu_bjRJu_edFFNj0ww5iRYEWLzE",
+      "expire_date": "2024-10-02T21:49:24.863Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ydm1g6zmy9mwfkjv9gq7uw4iovlz75rg",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2hBaqPBcuvcMhPdBqoYmpV0Z725IutDtzGTeKqZ9K3FvssaZ1UUN6vTLMNFTahf8SPW-aFrqts6oe6IP2_RtYXldj_ZvUFIrfZsBrCVDE3hn0QgOIpPDs6eRyQe24oRBgkEJ3ltwzpExlMHnLHlUny_mczhO:1suy3z:NB7-cFvhEoeA_-kiv3WrRPF0K98tPCVHu2bP7zM5HHo",
+      "expire_date": "2024-10-13T17:50:31.349Z"
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 1,
+    "fields": {
+      "email": "nik52119e@gmail.com",
+      "full_name": "Nik Mak",
+      "comment": "Хочу получать свежую информацию о криптовалюте.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 2,
+    "fields": {
+      "email": "alex_adams@gmai.com",
+      "full_name": "Alex Orlov Adomsovich",
+      "comment": "Hello",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 3,
+    "fields": {
+      "email": "andrew@gmail.com",
+      "full_name": "Andrew Tate Emory",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 4,
+    "fields": {
+      "email": "alex_fedotov@gmail.com",
+      "full_name": "Fedotov Alexandr Yakovlev",
+      "comment": "Куплю bitcoin",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 5,
+    "fields": {
+      "email": "timoha12@gmail.com",
+      "full_name": "Галуга Тимофей Сергеевич",
+      "comment": "Продажа крипты",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 6,
+    "fields": {
+      "email": "pop@gmail.com",
+      "full_name": "Попов Александ Дмитриевич",
+      "comment": "Покупаю оптом",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 7,
+    "fields": {
+      "email": "test@gmail.com",
+      "full_name": "Test testov",
+      "comment": "test",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 8,
+    "fields": {
+      "email": "asda11@gmail.com",
+      "full_name": "Andrew Tatea Emory",
+      "comment": "asdasdad",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing_service.client",
+    "pk": 9,
+    "fields": {
+      "email": "asdasd@gmail.com",
+      "full_name": "Andrew Tate Emory123",
+      "comment": "adasd",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 1,
+    "fields": {
+      "subject": "Покупка BITCOIN",
+      "body": "Биткоин в ближайшее время возрастет в цене, успей купить.",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 2,
+    "fields": {
+      "subject": "Продажа BITCOIN",
+      "body": "Продам 1 биткоин - срочно!!!!!!!!",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 3,
+    "fields": {
+      "subject": "Продам USDT",
+      "body": "Продажа USDT:\r\n1 usdt : 100 rub\r\n1 usdt : 3.2 byn",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 4,
+    "fields": {
+      "subject": "Куплю USDT",
+      "body": "Куплю USDT: \r\n1 usdt : 90 rub\r\n1 usdt : 3 byn",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 5,
+    "fields": {
+      "subject": "Продам ХАМСТЕР ТОКИНЫ",
+      "body": "Покупаю виллу, решил скинуть монетки хомяка",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 6,
+    "fields": {
+      "subject": "Test",
+      "body": "test",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing_service.message",
+    "pk": 7,
+    "fields": {
+      "subject": "Давайте дружить",
+      "body": "Дружу со всеми",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 1,
+    "fields": {
+      "start_date": "2024-09-18T13:29:35Z",
+      "period": "monthly",
+      "status": "created",
+      "message": 1,
+      "owner": null,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 3,
+    "fields": {
+      "start_date": "2020-07-19T00:00:00Z",
+      "period": "daily",
+      "status": "started",
+      "message": 1,
+      "owner": null,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 5,
+    "fields": {
+      "start_date": "2024-09-29T20:52:59Z",
+      "period": "daily",
+      "status": "started",
+      "message": 3,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 6,
+    "fields": {
+      "start_date": "2024-09-21T00:00:00Z",
+      "period": "weekly",
+      "status": "created",
+      "message": 1,
+      "owner": 1,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 7,
+    "fields": {
+      "start_date": "2020-07-19T00:00:00Z",
+      "period": "monthly",
+      "status": "finished",
+      "message": 3,
+      "owner": 1,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 8,
+    "fields": {
+      "start_date": "2024-09-29T00:00:00Z",
+      "period": "daily",
+      "status": "finished",
+      "message": 4,
+      "owner": 1,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 9,
+    "fields": {
+      "start_date": "2024-09-29T00:00:00Z",
+      "period": "daily",
+      "status": "started",
+      "message": 7,
+      "owner": 4,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 10,
+    "fields": {
+      "start_date": "2020-07-19T00:00:00Z",
+      "period": "weekly",
+      "status": "created",
+      "message": 2,
+      "owner": 1,
+      "clients": []
+    }
+  },
+  {
+    "model": "mailing_service.mailing",
+    "pk": 11,
+    "fields": {
+      "start_date": "2024-09-29T20:51:00Z",
+      "period": "daily",
+      "status": "created",
+      "message": 1,
+      "owner": 1,
+      "clients": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "mailing_service.attempt",
+    "pk": 1,
+    "fields": {
+      "mailing": 9,
+      "date": "2024-09-29T17:53:07.133Z",
+      "status": "success",
+      "response": "0"
+    }
+  },
+  {
+    "model": "mailing_service.attempt",
+    "pk": 2,
+    "fields": {
+      "mailing": 3,
+      "date": "2024-09-29T17:53:07.137Z",
+      "status": "success",
+      "response": "0"
+    }
+  },
+  {
+    "model": "mailing_service.attempt",
+    "pk": 3,
+    "fields": {
+      "mailing": 5,
+      "date": "2024-09-29T17:53:08.366Z",
+      "status": "success",
+      "response": "1"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$CoWowajHTxySxk5W2iiAWo$mdLOv7Yw1Zx8S0vzkezEKdDQQbJt0mF/YoceGqlMzDI=",
+      "last_login": "2024-09-29T17:50:31.346Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-09-18T21:48:50Z",
+      "email": "admin@gmail.com",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": null,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$H5v5J6huJetBKD8kdOiN9C$QQ7eqQ1VtAihfbUW5lwE36sLeVFB2cpK8CoM3+MFpm4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-28T19:25:07.808Z",
+      "email": "eupaewo@mailto.plus",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": "0029bf33ca592e9cea711edfe9f4cf9c",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$OFCKtGa4jT9SNYc5udl8VL$l1m+sxIkBVzknEGujA05nmYiIx107mFOuKBV3a9Y5yE=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-28T19:27:33.125Z",
+      "email": "vexawa@mailto.plus",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": "86817d2855ca17e18bbbb2aa28cb4e32",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$c6k87TSMNkq9uvWwvyKmqr$eu0RnssrL6YJQJPeO2msP3yyxtDSuZ47XLsge6keQZM=",
+      "last_login": "2024-09-29T16:52:13.487Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-09-28T19:30:02Z",
+      "email": "vcumoe@mailto.plus",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": "d0f80d7bf85375825f64f1cf645ef1d1",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$bRg3tXnxnPFQkCLouVpFN0$C5wUiH1zZpw0zfX3SS34IohEL2hCv1Xfpl16iXrofgo=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-28T19:31:04.731Z",
+      "email": "sdasd@gmail.com",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": "2f01fbd517a50c9c32d3846883c29b9f",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ywd5b1hGEFh0WV7bUPaCOC$UrI59+b/KnfaERZ4ksq5pEY7AdoRTlTNSmjHZFKAVXo=",
+      "last_login": "2024-09-29T16:05:14.936Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-28T19:32:34.422Z",
+      "email": "xwocefe@mailto.plus",
+      "phone": null,
+      "forum_name": null,
+      "avatar": "",
+      "token": "94204a2ce54b6c2c3f3c6532cafd8e8a",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+      "title": "213",
+      "body": "12312",
+      "image": "image/pictures/images1.jpeg",
+      "publish_at": null,
+      "view_counter": 4
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+      "title": "Новости криптовалюты",
+      "body": "Прикольные события",
+      "image": "image/pictures/images3.jpeg",
+      "publish_at": "2024-09-28",
+      "view_counter": 1
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "Новости хамстер комбат",
+      "body": "это скам бегите",
+      "image": "image/pictures/w400_tpadding12.webp",
+      "publish_at": "2024-09-28",
+      "view_counter": 1
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "Куда пропал биткоин",
+      "body": "Биткоин исчез",
+      "image": "image/pictures/korgi2.webp",
+      "publish_at": "2024-09-28",
+      "view_counter": 1
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 6,
+    "fields": {
+      "title": "Тера нова пропали",
+      "body": "где монеты???",
+      "image": "image/pictures/Screenshot_from_2024-09-18_01-41-32.png",
+      "publish_at": "2024-09-28",
+      "view_counter": 0
+    }
+  }
+]
